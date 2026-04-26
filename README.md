@@ -65,7 +65,7 @@ tabconvert/
 
 1. Clone le dépôt :
    ```bash
-   git clone https://github.com/yourusername/tabconvert.git
+   git clone https://github.com/3SS1L4/tabconvert.git
    ````
 
 2. Ouvre le projet dans **Android Studio**
