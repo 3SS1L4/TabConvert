@@ -65,7 +65,7 @@ tabconvert/
 1. Clone le dépôt :
    ```bash
    git clone https://github.com/yourusername/tabconvert.git
-````
+   ````
 
 2. Ouvre le projet dans **Android Studio**
 3. Attends la synchronisation Gradle
