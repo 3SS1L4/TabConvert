@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input"
+        android:hint="Value"
+        android:inputType="numberDecimal"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/km"
+            android:text="Km → Mi"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/mi"
+            android:text="Mi → Km"
+            android:layout_marginStart="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Convert"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:text="Result"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
