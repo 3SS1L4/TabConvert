@@ -1,8 +1,3 @@
-Voici un **README.md propre, professionnel et adapté à ton projet TabConvert**, avec focus sur **ce que tu as appris** 👇
-
----
-
-```md
 # 📱 TabConvert — Convertisseur avec Onglets (Fragments)
 
 > **LAB 5 — Programmation Mobile : Android avec Java**  
